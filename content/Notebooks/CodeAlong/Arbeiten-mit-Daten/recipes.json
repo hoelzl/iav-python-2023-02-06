@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Spaghetti Carbonara",
+    "ingredients": [
+      "8 oz spaghetti",
+      "6 slices of bacon",
+      "4 egg yolks",
+      "1 cup grated Parmesan cheese",
+      "1/2 cup heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions until al dente.",
+      "While spaghetti is cooking, cut bacon into small pieces and cook in a pan until crispy.",
+      "Whisk together egg yolks, Parmesan cheese, and heavy cream in a bowl.",
+      "Drain spaghetti and add to the pan with bacon, stirring to combine.",
+      "Remove pan from heat and pour egg mixture over spaghetti, stirring until sauce is fully combined.",
+      "Season with salt and pepper to taste.",
+      "Serve hot and enjoy!"
+    ],
+    "tips": [
+      "For a creamy carbonara, use a starchy pasta water to help thicken the sauce.",
+      "For an extra burst of flavor, add some crushed garlic to the bacon while it's cooking."
+    ]
+  },
+  {
+    "title": "Chicken Teriyaki",
+    "ingredients": [
+      "1 lb boneless chicken breast",
+      "1/2 cup soy sauce",
+      "1/2 cup mirin",
+      "1/4 cup sugar",
+      "2 tbsp cornstarch",
+      "2 tbsp water"
+    ],
+    "instructions": [
+      "In a small saucepan, whisk together soy sauce, mirin, and sugar. Heat over medium heat until sugar is dissolved.",
+      "In a separate bowl, whisk together cornstarch and water.",
+      "Add cornstarch mixture to saucepan and stir until sauce thickens.",
+      "Cut chicken breast into thin strips.",
+      "In a large skillet, cook chicken over medium heat until fully cooked.",
+      "Pour teriyaki sauce over chicken and stir to combine.",
+      "Serve with rice and enjoy!"
+    ],
+    "tips": [
+      "For a thicker sauce, add another tablespoon of cornstarch to the mixture.",
+      "Try adding sliced bell peppers or onions for some extra veggies in your dish."
+    ]
+  },
+  {
+    "title": "BBQ Ribs",
+    "ingredients": [
+      "2 lbs pork ribs",
+      "1 cup BBQ sauce",
+      "1/2 cup brown sugar",
+      "1/4 cup apple cider vinegar",
+      "2 tbsp Worcestershire sauce",
+      "1 tsp garlic powder",
+      "1 tsp onion powder",
+      "1 tsp smoked paprika"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F.",
+      "In a small bowl, whisk together BBQ sauce, brown sugar, apple cider vinegar, Worcestershire sauce, garlic powder, onion powder, and smoked paprika.",
+      "Arrange ribs in a single layer in a baking dish.",
+      "Pour sauce over ribs, making sure to fully coat each rib.",
+      "Bake in preheated oven for 1 hour and 15 minutes, or until ribs are fully cooked and tender.",
+      "Serve hot and enjoy!"
+    ],
+    "tips": [
+      "Choose the right cut of ribs: Look for ribs that are meaty with a good amount of fat. Spareribs or St. Louis style ribs are popular choices.",
+      "Trim the Ribs: Remove any excess fat or silver skin from the ribs, so they cook evenly and absorb the seasonings and sauces.",
+      "Marinate the ribs: To add flavor, marinate the ribs in a mixture of your favorite spices, sauces, and liquids for at least 30 minutes or up to overnight.",
+      "Dry Rub the ribs: Apply a dry rub made of spices, salt, and sugar to the ribs to form a crust when cooking.",
+      "Start Slow: Start cooking the ribs low and slow on a indirect heat, such as a grill or oven. This allows the ribs to cook thoroughly and tenderize.",
+      "Baste the ribs: Baste the ribs with your favorite BBQ sauce or other liquid every 30 minutes to help keep the meat moist.",
+      "Wrap the ribs: To speed up the cooking process and to add more flavor, wrap the ribs in foil and continue cooking until they are tender.",
+      "Finish on the grill: Remove the foil and place the ribs back on the grill over direct heat to caramelize the sauce and form a crisp crust.",
+      "Rest the ribs: After grilling, let the ribs rest for 10 minutes before serving to allow the flavors to settle and the juices to redistribute."
+    ]
+  },
+  {
+    "title": "Spicy Grilled Chicken",
+    "ingredients": [
+      "4 boneless chicken breasts",
+      "1/4 cup olive oil",
+      "1/4 cup lemon juice",
+      "2 cloves garlic, minced",
+      "1 tsp paprika",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "1 tsp dried oregano",
+      "1 tsp salt",
+      "1/2 tsp black pepper"
+    ],
+    "instructions": [
+      "In a small bowl, whisk together olive oil, lemon juice, garlic, paprika, cumin, chili powder, oregano, salt, and pepper.",
+      "Place chicken in a large resealable plastic bag and pour marinade over the chicken.",
+      "Seal the bag and turn to evenly coat the chicken with the marinade.",
+      "Refrigerate for at least 30 minutes, or up to 8 hours.",
+      "Preheat grill to medium-high heat.",
+      "Remove chicken from the marinade and discard any remaining marinade.",
+      "Grill chicken for 6 to 8 minutes on each side, or until fully cooked.",
+      "Serve hot with your favorite side dish."
+    ],
+    "tips": [
+      "For extra spice, add red pepper flakes to the marinade.",
+      "For a milder flavor, decrease the amount of chili powder and cumin."
+    ]
+  },
+  {
+    "title": "Creamy Garlic Shrimp Pasta",
+    "ingredients": [
+      "1 lb large shrimp, peeled and deveined",
+      "1/2 lb spaghetti",
+      "1/4 cup unsalted butter",
+      "6 cloves garlic, minced",
+      "1 cup heavy cream",
+      "1/2 cup grated parmesan cheese",
+      "1/4 tsp red pepper flakes",
+      "2 tbsp fresh parsley, chopped",
+      "Salt and pepper, to taste"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to a boil.",
+      "Add spaghetti and cook for 8 to 10 minutes, or until al dente.",
+      "Drain and set aside.",
+      "In a large pan, melt butter over medium heat.",
+      "Add garlic and cook for 1 to 2 minutes, or until fragrant.",
+      "Add shrimp and cook for 2 to 3 minutes on each side, or until pink and fully cooked.",
+      "Remove shrimp from the pan and set aside.",
+      "Add heavy cream, parmesan cheese, red pepper flakes, parsley, salt, and pepper to the pan.",
+      "Whisk until the sauce is smooth and heated through.",
+      "Add cooked spaghetti to the pan and toss until evenly coated with the sauce.",
+      "Return shrimp to the pan and stir until heated through.",
+      "Serve hot with extra parmesan cheese and parsley, if desired."
+    ],
+    "tips": [
+      "For a lighter version, use half and half instead of heavy cream.",
+      "For a vegetarian option, substitute the shrimp with sautéed mushrooms."
+    ]
+  }
+]

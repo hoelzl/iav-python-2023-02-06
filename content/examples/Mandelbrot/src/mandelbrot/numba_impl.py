@@ -26,7 +26,8 @@ def mandelbrot_numba_loop(dimensions: Dimensions, area: Area, max_iter: int = 20
                 new_val = z_val**2 + c[i_row, i_col]
                 z[i_row, i_col] = new_val
                 # Are we diverging?
-                if np.abs(z_val * np.conj(z_val)) > 4:
+                is_diverging = np.abs(z_val * np.conj(z_val)) > 4
+                if is_diverging:
                     # Do we start diverging in this step?
                     if diverge_start[i_row, i_col] == max_iter:
                         # Note the divergence start for points starting this step
@@ -61,7 +62,8 @@ def mandelbrot_numba_loop_parallel(
                 new_val = val**2 + c[i_row, i_col]
                 z[i_row, i_col] = new_val
                 # Are we diverging?
-                if np.abs(new_val * np.conj(new_val)) > 4:
+                is_diverging = new_val * np.conj(new_val) > 4
+                if is_diverging:
                     # Do we start diverging in this step?
                     if diverge_start[i_row, i_col] == max_iter:
                         # Note the divergence start for points starting this step
@@ -83,12 +85,12 @@ def mandelbrot_numba_broadcast(dimensions: Dimensions, area: Area, max_iter: int
     for i in range(max_iter):
         z = z**2 + c
         # Who is diverging?
-        diverge = np.abs(z * np.conj(z)) > 4
+        is_diverging = np.abs(z * np.conj(z)) > 4
         # Who starts diverging this step?
-        div_now = diverge & (diverge_start == max_iter)
+        div_now = is_diverging & (diverge_start == max_iter)
         # Note the divergence start for points starting this step
         diverge_start.reshape(-1)[div_now.reshape(-1)] = np.int64(i)
         # Avoid diverging too much
-        z.reshape(-1)[diverge.reshape(-1)] = 2
+        z.reshape(-1)[is_diverging.reshape(-1)] = 2
 
     return diverge_start

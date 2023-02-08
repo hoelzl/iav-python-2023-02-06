@@ -23,7 +23,8 @@ def mandelbrot_pure_python(dimensions: Dimensions, area: Area, max_iter: int = 2
                 new_val = z_val**2 + c[i_row][i_col]
                 row[i_col] = new_val
                 # Are we diverging?
-                if z_val * np.conj(z_val) > 4:
+                is_diverging = z_val * np.conj(z_val) > 4
+                if is_diverging:
                     # Do we start diverging in this step?
                     if diverge_start[i_row][i_col] == max_iter:
                         # Note the divergence start for points starting this step
@@ -44,13 +45,13 @@ def mandelbrot_numpy(dimensions: Dimensions, area: Area, max_iter: int = 20):
     for i in range(max_iter):
         z = z**2 + c
         # Who is diverging?
-        diverge = z * np.conj(z) > 4
+        is_diverging = z * np.conj(z) > 4
         # Who starts diverging this step?
-        div_now = diverge & (diverge_start == max_iter)
+        div_now = is_diverging & (diverge_start == max_iter)
         # Note the divergence start for points starting this step
         diverge_start[div_now] = i
         # Avoid diverging too much
-        z[diverge] = 2
+        z[is_diverging] = 2
 
     return diverge_start
 

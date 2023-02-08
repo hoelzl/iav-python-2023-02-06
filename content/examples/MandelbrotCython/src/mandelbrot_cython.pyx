@@ -32,17 +32,6 @@ def mandelbrot_cython_loop(dimensions: Dimensions, area: Area, max_iter: int = 2
 
     diverge_start = [[max_iter] * len(row) for row in z]
 
-    """Returns an array containing the Mandelbrot fractal.
-
-    This function does not use numpy to compute the fractal values.
-    We still generate the nested lists using numpy since this is much simpler.
-    """
-    x = np.linspace(area.x_min, area.x_max, dimensions.width).reshape(1, -1)
-    y = np.linspace(area.y_min, area.y_max, dimensions.height).reshape(-1, 1)
-    c = (x + y * 1j).tolist()
-    z = deepcopy(c)
-
-    diverge_start = [[max_iter] * len(row) for row in z]
     for i_row, row in enumerate(z):
         for i_col in range(dimensions.width):
             for i in range(max_iter):

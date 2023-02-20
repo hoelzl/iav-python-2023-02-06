@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Spaghetti",
+    "ingredients": [
+      "Spaghetti",
+      "Water"
+    ],
+    "instructions": [
+      "Cook spaghetti in water.",
+      "Serve!"
+    ],
+    "tips": [
+        "Maybe put salt in water"
+    ]
+  },
+  {
+    "title": "Scrambled eggs",
+    "ingredients": [
+      "Eggs",
+      "Salt",
+      "Oil"
+    ],
+    "instructions": [
+        "Pour oil into pan",
+        "Add eggs",
+        "Scramble",
+        "Serve"
+    ],
+    "tips": [
+    ]
+  }
+]
